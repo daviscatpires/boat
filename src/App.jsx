@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:3000"); // Conecta ao backend
+const socket = io("https://backboat-production.up.railway.app"); // Conecta ao backend
 
 const App = () => {
   const [nickname, setNickname] = useState("");
